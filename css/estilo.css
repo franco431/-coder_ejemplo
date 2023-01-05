@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+.img__nav{
+    width: 30px;
+    height: 40px;
+}
+
+
+.header{
+    background-color: #00aae4;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.header__list{
+    display: flex;
+    padding: 1rem;
+
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+
+.main{
+    background-image: url(file:///C:/Users/perey/Desktop/curso/descarga.png);
+    background-size: 50px;
+}
+
+.main__titulo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section__img{
+    display: block;
+    width: 25.625rem;
+    height: 40rem;
+}
+
+.section__div{
+  
+    background-color: #000;
+    color: #fff;
+    width: 12.5rem;
+    height: 25rem;
+}
+
+.article__section{
+    display: flex;
+    padding: 3rem;
+}
+
+.article__section p{
+    padding: 0.5rem;
+}
+
+aside{
+    background-color: 	#4B4B4B;
+    color: #00aae4;
+    width: 250px;
+    height: 400px;
+}
+
+footer{
+    background-color: #000;
+}
+
+.img__footer{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    color: #fff;
+}
+header nav img{	
+    width: 40px;
+    height: 50px;
+
+
+}
+
+.titulo__main{
+    font-family: 'Fredoka One', cursive;
+}
+
+main{
+    font-family: 'Arimo', sans-serif;
+}
+
+body{
+    background-image: url(../img/imgbody.png);
+    background-size: 50px;
+}
+
+
+
+form{
+    border: solid #000 3px;
+    display: block;
+    width: 200px;
+}
+
+
+
+.img__denosotros{
+    width: 150px;
+    height: 150px;
+}
+
+
