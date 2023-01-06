@@ -7,6 +7,7 @@
 
 }
 
+/*estilo del nav del nav*/
 .img__nav{
     width: 30px;
     height: 40px;
@@ -40,10 +41,10 @@ ul li{
 }
 
 
-
+/*ESTILO DEL MAIN*/
 
 .main{
-    background-image: url(file:///C:/Users/perey/Desktop/curso/descarga.png);
+    background-image: url(../descarga.png);
     background-size: 50px;
 }
 
@@ -59,12 +60,18 @@ ul li{
     height: 40rem;
 }
 
-.section__div{
+.article__section1{
   
     background-color: #000;
     color: #fff;
     width: 12.5rem;
     height: 25rem;
+    
+}
+
+.article__section1 p{
+    padding: 0.5rem;
+
 }
 
 .article__section{
@@ -72,12 +79,17 @@ ul li{
     padding: 3rem;
 }
 
-.article__section p{
+.article__section__historia{
+    background:#4B4B4B;
+
+}
+.article__section__historia p{
     padding: 0.5rem;
+    background-color: 	#717171;
 }
 
 aside{
-    background-color: 	#4B4B4B;
+    
     color: #00aae4;
     width: 250px;
     height: 400px;
