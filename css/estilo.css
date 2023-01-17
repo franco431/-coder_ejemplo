@@ -11,11 +11,7 @@
 .padreuniversal{
     display:grid;
     grid-template-columns: 20% 1fr 500px;
-<<<<<<< HEAD
-    grid-template-rows: 50px 1100px 800px 100px;
-=======
-    grid-template-rows: 80px 2000px 100px 100px;
->>>>>>> rama3
+    grid-template-rows: 80px 2000px 600px 100px;
     grid-template-areas: "nav nav nav"
                          "main main main"
                          " main main main"
@@ -174,44 +170,6 @@ ul li a:hover{
    
 }
 
-<<<<<<< HEAD
-/*MODIFICANDO EL ASIDE */
-
-
-aside{
-    color: #00aae4;
-    width: 20.25rem;
-    height: 300px;
-    padding: 2rem;
-    
-    
-    grid-area: aside;
-}
-
-.aside p {
-    padding: 1.875rem;
-}
-
-.aside__titulo{
-    display: flex;
-    justify-content: center;
-   
-}
-.aside__div{
-    background-color: #d6d6d6;
-    border: #000 solid;
-    height: 500px;
-}
-
-.aside__equipos img{
-    width: 40px;
-    height: 50px;
-}
-
-
-
-/*MODIFICAR EL FOOTER*/
-=======
 .article__section__video iframe{
     margin-left: 300px;
     height: 400px;
@@ -222,7 +180,6 @@ aside{
 
 
 
->>>>>>> rama3
 
 footer{
     background-color: #000;
@@ -249,15 +206,9 @@ footer{
     color: #fff;
 }
 body{
-<<<<<<< HEAD
-   /* background-image: url(../img/imgbody.png);*/
-    background-size: 150px;
-    background-color: #978D88;
-=======
     /* background-image: url(../img/imgbody.png); */
     background-size: 50px;
     background-color: #006c8d;
->>>>>>> rama3
 }
 
 
@@ -516,14 +467,6 @@ body{
 
 }
 
-/*ESTILO MOVIL*/
-
-@media screen and (max-width: 768px) {
-    
-    .header{
-        background-color: yellow;
-    }
-}
 
 
 
