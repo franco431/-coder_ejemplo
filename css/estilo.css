@@ -140,28 +140,37 @@ ul li a:hover{
     padding: 3rem;
 }
 
-.article__section__historia {
-    
-    background-color: #d6d6d6;
-    width: 400px;
-    height: 700px;
-    
-    
 
-}
 
 .article__section__video{
     padding: 0.8rem;
 }
 
-.section__historia{
-    width: 500px;
-    
-    display: flex;
-    
+
+
+
+
+
+.article__section__video iframe{
+    margin-left: 300px;
+    height: 400px;
+    width: 600px;
+
 }
 
-.section__historia__titulo{
+.article__section__historia {
+    background: #d6d6d6;
+    margin: auto;
+    
+    
+
+}
+
+.section__historia{
+    display: flex;
+}
+
+.section__titulo__historia{
     display: flex;
     justify-content: center;
 
@@ -170,13 +179,6 @@ ul li a:hover{
 .article__section__historia p{
     padding: 0.7rem;
    
-}
-
-.article__section__video iframe{
-    margin-left: 300px;
-    height: 400px;
-    width: 600px;
-
 }
 
 
