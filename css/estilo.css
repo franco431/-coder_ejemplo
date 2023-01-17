@@ -141,8 +141,8 @@ ul li a:hover{
 }
 
 .article__section__historia {
-   
-  
+    
+    background-color: #d6d6d6;
     width: 400px;
     height: 700px;
     
@@ -156,8 +156,9 @@ ul li a:hover{
 
 .section__historia{
     width: 500px;
-    background-color: #d6d6d6;
+    
     display: flex;
+    
 }
 
 .section__historia__titulo{
