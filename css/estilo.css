@@ -11,7 +11,11 @@
 .padreuniversal{
     display:grid;
     grid-template-columns: 20% 1fr 500px;
+<<<<<<< HEAD
     grid-template-rows: 80px 2000px 600px 100px;
+=======
+    grid-template-rows: 80px 2000px 200px 100px;
+>>>>>>> rama3
     grid-template-areas: "nav nav nav"
                          "main main main"
                          " main main main"
