@@ -1,6 +1,5 @@
-@import "./coloreas"
 .header{
-    background-color: colorprincipal;
+    background-color:  #00aae4;
     display: flex;
     justify-content: space-between;
     grid-area: nav;
@@ -37,3 +36,5 @@
     }
 
 }
+
+@import "coloreas";

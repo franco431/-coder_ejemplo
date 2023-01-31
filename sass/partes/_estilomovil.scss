@@ -27,7 +27,7 @@
 
 
     .main__h1{
-        grid grid-area: h1;
+        grid-area: h1;
         color: #fff;
         padding:30px;
         font-size: 100px;
@@ -63,7 +63,7 @@
     .article__section__video iframe{
         height: 300px;
         width: 410px;
-        margin-left:;
+        
     }
 
     .section__historia{
@@ -117,5 +117,4 @@
         margin-top: 100px;
     }
 
-
-
+}
