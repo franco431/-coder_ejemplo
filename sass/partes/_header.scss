@@ -1,5 +1,6 @@
+@import "./coloreas"
 .header{
-    background-color: #00aae4;
+    background-color: colorprincipal;
     display: flex;
     justify-content: space-between;
     grid-area: nav;

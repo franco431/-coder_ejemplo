@@ -1,0 +1,121 @@
+/* ESTILO MOVIL */
+
+@media screen and (max-width:480px) {
+    .padreuniversal{
+        display:grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 200px 2000px 160px 100px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             " main main main"
+                             "footer footer footer";
+       
+                              
+                              
+                            
+                             
+    }
+
+    
+    .header{
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 30px ;
+    }
+
+
+
+
+    .main__h1{
+        grid grid-area: h1;
+        color: #fff;
+        padding:30px;
+        font-size: 100px;
+        &__titulo{
+            background-color: #000;
+        }
+    
+    
+    }
+
+    
+
+    .section__img{
+        width: 200px;
+        height: 350px;
+    }
+
+    .article__sectioncontenedor{
+        margin-left: -60px;
+        height: 400px;
+        width: 480px;
+    }
+
+    .article__section1{
+        width: 200px;
+        height:350px ;
+    }
+
+    .article__section__video{
+        margin-left:-290px;
+    }
+
+    .article__section__video iframe{
+        height: 300px;
+        width: 410px;
+        margin-left:;
+    }
+
+    .section__historia{
+        display: block;
+        width: 410px;
+    }
+
+    .section__titulo__historia{
+        justify-content:center;
+        display:flex;
+        width: 410px;
+    }
+
+    .footer{
+        display: flex;
+        width: 410px;
+        margin: 0%;
+    }
+
+
+    .padreuniversalS{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 200px 400px 480px 100px;
+        grid-template-areas: "nav nav nav"
+                             ". main ."
+                             " . main ."
+                             "footer footer footer"
+    }
+
+    .form{
+        padding-left: 0%;
+        height: 700px;
+    }
+
+    .form__div{
+        padding-left: 30px;
+    }
+
+    .header__logo{
+        display: flex;
+        justify-content: center;
+        width: 410px;
+    }
+
+    .padreA{
+        display: block;
+    }
+
+    #mainayuda{
+        margin-top: 100px;
+    }
+
+
+
