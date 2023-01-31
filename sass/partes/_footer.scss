@@ -1,0 +1,21 @@
+
+footer{
+    background-color: #000;
+    grid-area: footer;
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: #fff;  
+    }
+    
+    
+
+}

@@ -24,12 +24,9 @@
 }
 
 /*ESTILO DEL HEADER*/
-.header__img{
-    width: 60px;
-    height: 70px;
-}
+ 
 
-header nav img{	
+.header__img{	
     width: 60px;
     height: 70px;
 
@@ -57,6 +54,7 @@ header nav img{
 
 }
 
+
 ul li a{
     list-style: none;
     text-decoration: none;
@@ -69,9 +67,7 @@ ul li{
     list-style: none;
 }
 
-ul li a:hover{
-    /* background-color: #37A3C3; */
-}
+
 
 
 /*ESTILO DEL MAIN*/
@@ -191,6 +187,8 @@ footer{
     color: #fff;
 }
 
+   
+
 
 
 
@@ -240,6 +238,34 @@ body{
 
 }
 
+.padreA{
+    display: flex;
+}
+
+.form-control me-2 input{
+    width: 300px;
+    
+
+}
+
+.titulo__ayuda{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.sectionn{
+    background: #00aae4;
+    border-radius: 10px;
+}
+
+.div__aa{
+    margin: 10px;
+}
+
+
+
 /* SESION CSS */
 
 .padreuniversalS{
@@ -280,6 +306,9 @@ body{
 .form__summit{
     width: 100%;
 }
+
+/* REGISTRO CSS */
+
 
 .registro a{
     
@@ -349,6 +378,17 @@ body{
       
         display: flex;
         flex-direction:column;
+    }
+
+    .padreuniversalA{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 80px 400px 480px 100px;
+        grid-template-areas: "nav nav nav"
+                             ". main ."
+                             " . main ."
+                             "footer footer footer"
+
     }
     
     
@@ -454,6 +494,7 @@ body{
 
     .form{
         padding-left: 0%;
+        height: 700px;
     }
 
     .form__div{
@@ -464,6 +505,14 @@ body{
         display: flex;
         justify-content: center;
         width: 410px;
+    }
+
+    .padreA{
+        display: block;
+    }
+
+    #mainayuda{
+        margin-top: 100px;
     }
 
 

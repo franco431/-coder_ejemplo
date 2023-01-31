@@ -1,0 +1,38 @@
+.header{
+    background-color: #00aae4;
+    display: flex;
+    justify-content: space-between;
+    grid-area: nav;
+    &__img{
+        width: 60px;
+        height: 70px;
+
+    }
+    &__list{
+        display: flex;
+        padding: 1rem;
+        margin-top: 20px;
+
+    }
+
+    &__list{
+        display: flex;
+        padding: 1rem;
+        margin-top: 20px;
+
+
+    }
+
+    ul{
+        li{
+            list-style: none;
+            a{
+                list-style: none;
+                text-decoration: none;
+                color: #000;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+}

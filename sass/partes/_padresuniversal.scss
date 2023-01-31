@@ -1,0 +1,37 @@
+.padreuniversal{
+    display:grid;
+    grid-template-columns: 20% 1fr 500px;
+    grid-template-rows: 80px 2000px 200px 100px;
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         " main main main"
+                         "footer footer footer";
+   
+                          
+                          
+                        
+                         
+}
+
+.padreuniversalA{
+    display: grid;
+    grid-template-columns: 20% 1fr 500px;
+    grid-template-rows: 80px 500px 100px 100px;
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         " main main main"
+                         "footer footer footer"
+
+}
+
+.padreuniversalS{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 400px 80px 100px;
+    grid-template-areas: "nav nav nav"
+                         ". main ."
+                         " . main ."
+                         "footer footer footer"
+}
+
+

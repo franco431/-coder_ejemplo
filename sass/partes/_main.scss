@@ -1,0 +1,28 @@
+.main{
+    background-image: url(../descarga.png);
+    background-size: 50px;
+    grid-area: main;
+
+    &__titulo{
+        margin: auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px ;
+        grid-template-areas: "h1 ."
+                             " . .";
+        background-image: url(https://images4.alphacoders.com/113/thumb-1920-1130246.jpg);
+        width:;
+        height: 800px;
+
+    }
+
+    &__h1{
+        grid grid-area: h1;
+        color: #fff;
+        padding:100px;
+        font-size: 100px;
+
+    }
+
+
+}
