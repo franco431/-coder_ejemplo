@@ -35,9 +35,7 @@
 
 
 .header{
-    background-color: #00aae4;
-    display: flex;
-    justify-content: space-between;
+  
     grid-area: nav;
     
    

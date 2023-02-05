@@ -1,7 +1,4 @@
 .header {
-  background-color: #00aae4;
-  display: flex;
-  justify-content: space-between;
   grid-area: nav; }
   .header__img {
     width: 60px;
@@ -56,6 +53,15 @@
 
 .article__section__historia p {
   padding: 0.7rem; }
+
+.section__img {
+  display: block;
+  width: 25.625rem;
+  height: 40rem; }
+
+.article__section {
+  display: flex;
+  padding: 3rem; }
 
 .padreA {
   display: flex; }
@@ -141,6 +147,38 @@ body {
   #mainayuda {
     margin-top: 100px; } }
 
+/* ESTILO TABLET*/
+@media screen and (max-width: 768px) {
+  .padreuniversal {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 2000px 430px 100px;
+    grid-template-areas: "nav nav nav" "main main main" " main main main" "footer footer footer"; }
+  .article__sectioncontenedor {
+    margin-left: 0px; }
+  .article__section__video {
+    margin-left: -300px; }
+  .padreuniversalS {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 400px 480px 100px;
+    grid-template-areas: "nav nav nav" ". main ." " . main ." "footer footer footer"; }
+  .form {
+    box-shadow: 0 5px -5px black;
+    background: #00aae4;
+    grid-area: main;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column; }
+  .padreuniversalA {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 400px 480px 100px;
+    grid-template-areas: "nav nav nav" ". main ." " . main ." "footer footer footer"; } }
+
 footer {
   background-color: #000;
   grid-area: footer;
@@ -191,6 +229,19 @@ footer {
     color: #fff;
     padding: 100px;
     font-size: 100px; }
+  .main__tituloT {
+    position: relative;
+    top: -400px;
+    left: 900px; }
+    .main__tituloT h1 {
+      font-size: 100px;
+      color: #fff; }
+  .main__div {
+    display: flex;
+    justify-content: center; }
+
+#mainayuda {
+  margin-top: 40px; }
 
 .img__denosotros {
   width: 150px;

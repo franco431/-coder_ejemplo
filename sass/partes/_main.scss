@@ -23,6 +23,28 @@
         font-size: 100px;
 
     }
+    
+    &__tituloT{
+        position: relative;
+        top: -400px;
+        left: 900px;
+        h1{
+          font-size: 100px;
+          color: #fff;
+        }
+        
+       
+    }
+    
+
+    &__div{
+        display: flex;
+        justify-content: center;
+    }
 
 
+}
+
+#mainayuda{
+    margin-top: 40px;
 }

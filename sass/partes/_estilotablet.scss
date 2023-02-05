@@ -1,0 +1,74 @@
+/* ESTILO TABLET*/
+
+@media screen and (max-width:768px) {
+   
+    
+    
+   
+   
+ 
+    .padreuniversal{
+     display:grid;
+     grid-template-columns: 20% 60% 20%;
+     grid-template-rows: 80px 2000px 430px 100px;
+     grid-template-areas: "nav nav nav"
+                          "main main main"
+                          " main main main"
+                          "footer footer footer"}
+     
+     
+     
+     
+     
+     
+     .article__sectioncontenedor{
+         margin-left: 0px;
+        
+     }
+ 
+     .article__section__video{
+         margin-left: -300px;
+     }
+ 
+ 
+     .padreuniversalS{
+         display: grid;
+         grid-template-columns: 20% 60% 20%;
+         grid-template-rows: 80px 400px 480px 100px;
+         grid-template-areas: "nav nav nav"
+                              ". main ."
+                              " . main ."
+                              "footer footer footer"
+     }
+ 
+     .form{
+         box-shadow: 0 5px -5px rgb(0,0,0/30%);
+         background: #00aae4;
+         grid-area: main;
+         height:500px;
+         border-radius: 10px;
+         margin-top: 30px;
+         padding-left: 50px;
+ 
+         
+       
+         display: flex;
+         flex-direction:column;
+     }
+ 
+     .padreuniversalA{
+         display: grid;
+         grid-template-columns: 20% 60% 20%;
+         grid-template-rows: 80px 400px 480px 100px;
+         grid-template-areas: "nav nav nav"
+                              ". main ."
+                              " . main ."
+                              "footer footer footer"
+ 
+     }
+     
+     
+ 
+ 
+ }
+ 
