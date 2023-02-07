@@ -8,14 +8,22 @@ footer{
 .footer{
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 10px;
+    
 
     a{
         list-style: none;
         text-decoration: none;
         color: #fff;  
     }
+
+    &__div{
+        display: inline;
+    }
     
+    &__item{
+        display: block;
+    }
     
 
 }

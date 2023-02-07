@@ -10,7 +10,7 @@
     .padreuniversal{
      display:grid;
      grid-template-columns: 20% 60% 20%;
-     grid-template-rows: 80px 2000px 430px 100px;
+     grid-template-rows: 80px 2000px 430px 130px;
      grid-template-areas: "nav nav nav"
                           "main main main"
                           " main main main"
@@ -34,7 +34,7 @@
      .padreuniversalS{
          display: grid;
          grid-template-columns: 20% 60% 20%;
-         grid-template-rows: 80px 400px 480px 100px;
+         grid-template-rows: 80px 400px 480px 130px;
          grid-template-areas: "nav nav nav"
                               ". main ."
                               " . main ."
@@ -59,13 +59,43 @@
      .padreuniversalA{
          display: grid;
          grid-template-columns: 20% 60% 20%;
-         grid-template-rows: 80px 400px 480px 100px;
+         grid-template-rows: 80px 400px 480px 130px;
          grid-template-areas: "nav nav nav"
                               ". main ."
                               " . main ."
                               "footer footer footer"
  
      }
+
+
+     .main{
+        
+        &__tituloT{
+            position: relative;
+            left: 400px;
+            top: -300px ;
+
+        }
+
+        &__div{
+            img{
+                width: 700px;
+            }
+        }
+     }
+
+     .padreuniversalN{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 80px 400px 200px 130px;
+        grid-template-areas: "nav nav nav"
+                             ". main ."
+                             " . main ."
+                             "footer footer footer"
+    
+    
+    }
+    
      
      
  

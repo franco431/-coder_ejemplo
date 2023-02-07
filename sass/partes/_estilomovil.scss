@@ -4,7 +4,7 @@
     .padreuniversal{
         display:grid;
         grid-template-columns: 20% 60% 20%;
-        grid-template-rows: 200px 2000px 160px 100px;
+        grid-template-rows: 200px 2000px 160px 130px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              " main main main"
@@ -87,7 +87,7 @@
     .padreuniversalS{
         display: grid;
         grid-template-columns: 20% 60% 20%;
-        grid-template-rows: 200px 400px 480px 100px;
+        grid-template-rows: 200px 400px 480px 130px;
         grid-template-areas: "nav nav nav"
                              ". main ."
                              " . main ."
@@ -115,6 +115,46 @@
 
     #mainayuda{
         margin-top: 100px;
+    }
+
+    .main{
+
+        &__div{
+            img{
+                width: 500px;
+            }
+        }
+        &__tituloT{
+            position:relative ;
+            left: 300px;
+            top: -200px;
+            width: 50px;
+
+            h1{
+                font-size: 50px;
+            }
+        }
+
+    }
+
+    .padreuniversalT{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 80px 400px 2000px 130px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             " main main main"
+                             "footer footer footer"
+    }
+
+    .padreuniversalN{
+        display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 400px 200px 130px;
+    grid-template-areas: "nav nav nav"
+                         ". main ."
+                         " . main ."
+                         "footer footer footer"
     }
 
 }

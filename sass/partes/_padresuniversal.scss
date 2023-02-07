@@ -1,7 +1,7 @@
 .padreuniversal{
     display:grid;
     grid-template-columns: 20% 1fr 500px;
-    grid-template-rows: 80px 2000px 200px 100px;
+    grid-template-rows: 80px 2000px 200px 130px;
     grid-template-areas: "nav nav nav"
                          "main main main"
                          " main main main"
@@ -16,7 +16,7 @@
 .padreuniversalA{
     display: grid;
     grid-template-columns: 20% 1fr 500px;
-    grid-template-rows: 80px 500px 100px 100px;
+    grid-template-rows: 80px 500px 100px 130px;
     grid-template-areas: "nav nav nav"
                          "main main main"
                          " main main main"
@@ -27,7 +27,7 @@
 .padreuniversalS{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 80px 400px 80px 100px;
+    grid-template-rows: 80px 400px 80px 130px;
     grid-template-areas: "nav nav nav"
                          ". main ."
                          " . main ."
@@ -38,10 +38,22 @@
 .padreuniversalN{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 80px 400px 80px 100px;
+    grid-template-rows: 80px 400px 80px 130px;
     grid-template-areas: "nav nav nav"
                          ". main ."
                          " . main ."
+                         "footer footer footer"
+
+
+}
+
+.padreuniversalT{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 400px 1200px 130px;
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         " main main main"
                          "footer footer footer"
 
 
